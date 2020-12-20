@@ -1,0 +1,41 @@
+@font-face {
+	src: url("ui/font/Raleway-Regular.ttf") ;
+}
+.root {
+	-fx-background: #353F52 ;
+	-fx-font-family: "Raleway" ;
+	
+}
+.button {
+	-fx-background-color: #4a91b0 ;
+	-fx-background-radius: 60 ;
+	-fx-text-fill: #ffc5ab ;
+
+	
+}
+.button:hover {
+	-fx-background-color: #6fa8c0 ;
+}
+.button:focused {
+	-fx-background-color: #b06c4a ;
+}
+.text-input, .label  {
+	-fx-text-fill: #9876AA ;
+	
+}
+.view-text{
+	-fx-fill: #9876AA ;
+}
+.text-input, text-input:focused {
+	-fx-prompt-text-fill: derive(#9876AA, -15%);
+	
+}
+.text-field {
+	-fx-background-color: #F86400, -fx-background ;
+	-fx-background-insets: 0, 0 0 1 0 ;
+	-fx-background-radius: 0 ;
+	
+}
+.text-field:focused {
+	-fx-background-color: -fx-focus-color, -fx-background ;
+}

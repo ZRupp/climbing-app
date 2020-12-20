@@ -1,0 +1,3 @@
+public enum ClimbType {
+    GYM_BOULDER, GYM_ROUTE, OUTDOOR_BOULDER, OUTDOOR_ROUTE;
+}
